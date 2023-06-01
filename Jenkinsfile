@@ -9,9 +9,9 @@ pipeline {
         stage('Demo') {
             steps {
                 echo 'Hello, world'
-                sayHello 'Dave'
+                sayHello 'Sindhu'
 
-                echo 'The value of foo is : ' + GlobalVars.foo
+                echo 'The value of teddy is : ' + GlobalVars.teddy
 
                 script {
                     def person = new SampleClass()
